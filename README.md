@@ -1,4 +1,5 @@
 # TrBackdoor
+![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/Command.png)
 ## Backdoor Ayarları
 Öncelikle "sysupgrades.py" dosyamızı herhangi bir editör ile açınız ('SublimeText3').<br/>Daha sonra sınıfın dışında yani kod bloklarının altında yer alan"ConfigSocket = MySocket("buraya bağlantı açacak bir ip adresi",port) kısmına backdoor için bir ip adresi ve port numarası giriniz. Yani
 ![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/BackdoorConfig.png)
@@ -7,4 +8,4 @@
 ![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ExeConvertor.png)<br/>
 ## Listener Ayarları
 "Listener.py" dosyamızı yine bir editör ile açalım. Ardından yine alt tarafta yer alan<br/> "my_socket_listener = SocketListener("Dinleyici ip adresi",port)" kısmını kendi local ip adresinizi giriniz. Yani<br/>
-![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ListenerSettings.png)<br/>Böylece artık gelen bağlantıları dinlemeye hazırsınız.<br/>[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://www.youtube.com/watch?v=NVCAhal6wl8&feature=youtu.be)
+![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ListenerSettings.png)<br/>Böylece artık gelen bağlantıları dinlemeye hazırsınız.<br/>[![Watch the video](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/MainMenu.png)](https://www.youtube.com/watch?v=NVCAhal6wl8&feature=youtu.be)
