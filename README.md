@@ -1,4 +1,5 @@
 # TrBackdoor
+## Komutlar
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/Command.png)
 ## Backdoor Ayarları
 Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedefte saklamak istediğiniz zaman değiştirmiş olacağınız isim kullanıcıyı şüphelendirmemeli.<br/>
