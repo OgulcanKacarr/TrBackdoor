@@ -1,6 +1,7 @@
 import os
 os.systtem("apt-get update")
 os.system("pip install socket")
+os.system("pip install pyinstaller")
 os.system("pip install subprocess")
 os.system("pip install simlejson")
 os.system("pip install base64")
@@ -20,4 +21,4 @@ os.system("pip3 install sys")
 os.system("pip3 install shutil")
 os.system("pip3 install termcolor")
 os.system("pip3 install colorama")
-
+os.system("pip3 install pyinstaller")
