@@ -1,7 +1,7 @@
 # TrBackdoor
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/Command.png)
 ## Backdoor Ayarları
-Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedefte saklamak istediğiniz zaman değiştirmiş olacağınız isim kullanıcıyı şüphelendirmemeli.
+Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedefte saklamak istediğiniz zaman değiştirmiş olacağınız isim kullanıcıyı şüphelendirmemeli.<br/>
 Öncelikle "sysupgrades.py" dosyamızı herhangi bir editör ile açınız ('SublimeText3').<br/>Daha sonra sınıfın dışında yani kod bloklarının altında yer alan"ConfigSocket = MySocket("buraya bağlantı açacak bir ip adresi",port) kısmına backdoor için bir ip adresi ve port numarası giriniz. Yani
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/BackdoorConfig.png)
 ## Exe'ye Çevirme
