@@ -9,6 +9,6 @@ Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedef
 "sysupgrades.py" backdoor'umuzu hedefimize göndermeden önce "pyinstaller" kullanarak exe'ye çevirelim.<br/> Burada size önerdiğim exe'ye çevirme işleminde mutlaka bir icon ekleyiniz ve noconsole komutunu kullanınız. Fakat dosyayı bir başka dosya ile (pdf) birleştirmeyiniz. Çünkü bağlantı sağladıktan sonra "migrate" komutunu kullandığınız sırada backdoor saklanacaktır. Kullanıcı bilgisayarını her başlattığında başlayacaktır. İşte bu başlatma sırasında her defasında backdoor ile birlikte pdf açılmasın ki kullanıcı şüphelenmesin diye exe'ye çevirirken bir dosya ile birleştirilmesini önermiyorum.<br/>
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ExeConvertor.png)<br/>
 ## Listener Ayarları
-"Listener.py" dosyamızı yine bir editör ile açalım. Ardından yine alt tarafta yer alan<br/> "my_socket_listener = SocketListener("<İP>"<PORT>)" kısmını kendi local ip adresinizi giriniz. Yani<br/>
+"Listener.py" dosyamızı yine bir editör ile açalım. Ardından yine alt tarafta yer alan<br/> "my_socket_listener = SocketListener("<İP>"<PORT>)" kısmını kendi local ip adresimizi girelim. Yani<br/>
 <br/>![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ListenerSettings.png)<br/>Böylece artık gelen bağlantıları dinlemeye hazırsınız.<br/>[!<br/>[![SC2 Video](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/TrBackdoor.gif)](https://www.youtube.com/watch?v=NVCAhal6wl8&feature=youtu.be)
 
