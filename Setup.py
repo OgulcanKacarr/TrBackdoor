@@ -1,5 +1,5 @@
 import os
-os.systtem("apt-get update")
+os.system("apt-get update")
 os.system("pip install socket")
 os.system("pip install pyinstaller")
 os.system("pip install subprocess")
