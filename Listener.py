@@ -90,7 +90,6 @@ class SocketListener:
 
 
 
-
 try:
 	a = pyautogui.size()
 	width = a[0]
@@ -101,7 +100,7 @@ try:
 	os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
 	os.system("iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 8080")
 
-	my_socket_listener = SocketListener("192.168.1.63",8080)
+	my_socket_listener = SocketListener("ip",8080)
 	my_socket_listener.start_listener()
 
 except KeyboardInterrupt:
