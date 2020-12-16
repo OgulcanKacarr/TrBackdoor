@@ -10,6 +10,6 @@ Not: sysupgrades ismini isterseniz değiştirebilirsiniz. Lakin backdoor'u hedef
 <br/>![ConverotrExe](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ExeConvertor.png)<br/>
 ## Listener Ayarları
 "Listener.py" dosyamızı yine bir editör ile açalım. Ardından yine alt tarafta yer alan<br/> "my_socket_listener = SocketListener("<İP>"<PORT>)" kısmını kendi local ip adresimizi girelim. Yani<br/>
- <br/>![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ListenerSettings.png)<br/>Böylece artık gelen bağlantıları dinlemeye hazırsınız.<br/>
-
+ <br/>![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/ListenerSettings.png)<br/>Böylece artık gelen bağlantıları dinlemeye hazırsınız.<br/><br/>
+ <br/>![ConfigListener](https://github.com/OgulcanKacarr/TrBackdoor/blob/master/ConfigImages/workgif.gif)
 
